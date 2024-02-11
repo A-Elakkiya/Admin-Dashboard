@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Left_side_MENU -->
+    <section id="menu">
+        <div class="logo">
+            <img src="img/logo.png" alt="Downloading..">
+            <h2>Dynamic</h2>
+        </div>
+        <div class="nav-links">
+            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
+            <li><i class="fab fa-uikit"></i><a href="#">UI Elements</a></li>
+            <li><i class="fas fa-th-large"></i><a href="#">Tabels</a></li>
+            <li><i class="fas fa-edit"></i><a href="#">Forms</a></li>
+            <li><i class="fa-brands fa-cc-visa"></i><a href="#">Cards</a></li>
+            <li><i class="fas fa-hamburger"></i><a href="#">Modal</a></li>
+            <li><i class="fas fa-chart-line"></i><a href="#">Blank</a></li>           
+        </div>
+    </section>
+    <!-- Right_side_INTERFACE -->
+    <section id="interface">
+        <!-- Right_top_NAVIGATION -->
+        <div class="navigation">
+            <div class="n1">
+            <div>
+                <i id="menu-btn" class="fas fa-bars"></i>
+
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            </div>
+            <div class="profile">
+                <a href="#"><i class="fa-regular fa-bell"></i></a>
+                <a href="#"><img src="img/profile.png" alt="Profile image"></a>
+            </div>
+        </div>
+        <!-- Right_mid_TITLE -->
+        <div class="title">
+            <h3>Dashboard</h3>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <i class="fas fa-users"></i>
+                <div class="box-desc">
+                    <h3>3,261</h3>
+                    <p>New Users</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="box-desc">
+                    <h3>28,764</h3>
+                    <p>Total Orders</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-product-hunt"></i>
+                <div class="box-desc">
+                    <h3>12,542</h3>
+                    <p>Products Sell</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-dollar-sign"></i>
+                <div class="box-desc">
+                    <h3>$987.89</h3>
+                    <p>This Month</p>
+                </div>
+            </div>
+        </div>
+        <!-- Right_bottom_PROFILE -->
+        <div class="profile-details">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>NAME</td>
+                        <td>TITLE</td>
+                        <td>STATUS</td>
+                        <td>ROLE</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img1.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Angelina</h5>
+                                <p>angelina@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img2.png" alt="Loading..">
+                            <div class="name">
+                                <h5>George Reece</h5>
+                                <p>george@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img3.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Oscar Rhys</h5>
+                                <p>oscar@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img4.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Charlie Kyle</h5>
+                                <p>charlie@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img5.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Harry Callum</h5>
+                                <p>harry@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img6.png" alt="Loading..">
+                            <div class="name">
+                                <h5>John</h5>
+                                <p>john@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img7.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Jack</h5>
+                                <p>jack@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img8.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Jacob</h5>
+                                <p>jacob@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img9.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Bruno</h5>
+                                <p>bruno098@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr><tr>
+                        <td class="prof-desc">
+                            <img src="img/img10.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Abinaya</h5>
+                                <p>abinaya0235@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr><tr>
+                        <td class="prof-desc">
+                            <img src="img/img11.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Trisha</h5>
+                                <p>trisha@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr><tr>
+                        <td class="prof-desc">
+                            <img src="img/img12.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Luna</h5>
+                                <p>luna123@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img13.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Anu</h5>
+                                <p>anu0101@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prof-desc">
+                            <img src="img/img14.png" alt="Loading..">
+                            <div class="name">
+                                <h5>Jessi</h5>
+                                <p>jessi@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="job">
+                            <h5>Software Engineer</h5>
+                            <p>Web dev</p>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+                        <td class="edit">
+                            <a href="#">Edit</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('#menu').toggleClass("active");
+        })
+    </script>
+    
+</body>
+</html>
